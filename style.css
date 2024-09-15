@@ -1,0 +1,364 @@
+/*common css start*/
+body{
+	margin: 0;
+	padding: 0;
+	color: #302826;
+	background-color: #f5f4f2;
+}
+img{
+	width: 100%;
+}
+.title{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	color: #302826;
+	text-transform: capitalize;
+}
+.tag,
+.sub_title{
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	color: #302826;
+	margin: 0;
+}
+.description{
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: justify;
+	line-height: 25px;
+	margin: 25px 0;
+}
+.button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	color: #302826;
+	background-color: #d1c8c1;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px 50px;
+	border-radius: 5px;
+	transition: 0.33s linear;
+	display: inline-block;
+}
+.button:hover{
+	color: #d1c8c1;
+	background-color: #302826;
+}
+/*common css end*/
+/*header css start*/
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.header{
+	overflow: hidden;
+	padding: 20px 0 18px;
+	border-bottom: 2px solid #9d9998;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo a img{
+	width: 12%;
+	float: left;
+}
+.logo a h1{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	color: #8a715d;
+	text-transform: uppercase;
+	width: 50%;
+	float: left;
+	margin: 10px 2px;
+	display: inline-block;
+}
+.menu{
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 60px;
+}
+.menu ul li a{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #302826;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: 0.33s linear;
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #302826;
+	border-bottom: 2px solid #302826;
+}
+/*header css end*/
+/*banner css start*/
+.banner_section{
+	padding: 20px 0 100px;
+}
+.banner{
+	background: url("images/banner.jpg") no-repeat center;
+	background-size: cover;
+	padding: 250px 0 50px;
+}
+.banner h2{
+	margin: 10px 50px;
+}
+.b_bottom{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.b_text{
+	width: 30%;
+	float: left;
+	margin-right: 6%;
+}
+.b_img{
+	width: 20%;
+	float: left;
+	margin-right: 2%;
+}
+.b_img:last-child{
+	margin-right: 0;
+}
+/*banner css end*/
+/*about css start*/
+.about_section{
+	padding-bottom: 100px;
+}
+.about{
+	overflow: hidden;
+}
+.a_img{
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+}
+.a_text{
+	width: 55%;
+	float: left;
+}
+.a_text span{
+	display: inline-block;
+	margin-top: 40px;
+}
+.a_text h1{
+	margin-top: 5px;
+}
+.a_text .button{
+	float: right;
+}
+/*about css end*/
+/*coursess css start*/
+.coursess_section{
+	padding-bottom: 100px;
+}
+.coursess{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.coursess:last-child{
+	margin-bottom: 0;
+}
+.c1_img{
+	width: 40%;
+	float: left;
+	margin-right: 5%;
+}
+.c1_text{
+	width: 55%;
+	float: left;
+}
+.c_button{
+	float: right;
+}
+.c2_img{
+	width: 40%;
+	float: left;
+}
+.c2_text{
+	width: 55%;
+	float: left;
+	margin-right: 5%;
+}
+.c_title{
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+/*coursess css end*/
+/*shop css start*/
+.shop_section{
+	padding-bottom: 100px;
+}
+.shop_top{
+	width: 50%;
+	margin: 0 auto;
+}
+.shop_top h1{
+	text-align: center;
+	font-size: 50px;
+	font-style: italic;
+	text-transform: uppercase;
+	margin: 0 0 20px;
+
+}
+.shop_top p{
+	text-align: center;
+	margin: 0;
+}
+.shop_bottom{
+	margin-top: 20px;
+}
+.s_product{
+	width: 24.25%;
+	float: left;
+	background-color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-right: 1%;
+	box-shadow: 5px 5px 5px 5px #0000001f;
+}
+.s_product:last-child{
+	margin-right: 0;
+}
+.s_product h2{
+	font-size: 20px;
+	margin: 10px 0;
+}
+.s_product p{
+	text-align: center;
+}
+.p_button{
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 10px;
+}
+.more_product{
+	text-align: center;
+}
+.more_product .button{
+	display: inline-block;
+	margin-top: 100px;
+	padding: 20px 40px;
+}
+/*shop css end*/
+/*contact css start*/
+.contact_section{
+	padding-bottom: 100px;
+}
+.contact_left{
+	width: 47%;
+	float: left;
+	margin-right: 6%;
+}
+.contact_left h2{
+	margin-bottom: 0;
+}
+.contact_left .sub_title{
+	font-style: italic;
+}
+.contact_left .sub_title a{
+	text-decoration: none;
+	color: #302826;
+}
+.contact_right{
+	width: 47%;
+	float: left;
+	box-sizing: border-box;
+}
+.c_form input,
+.c_form textarea{
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+	color: #302826;
+	width: 100%;
+	background-color: #d1c8c1;
+	padding: 10px;
+	margin: 5px 0;
+	border: 0;
+}
+.c_form textarea{
+	resize: none;
+}
+::placeholder{
+	color: #302826;
+}
+.c_form input:focus,
+.c_form textarea:focus{
+	outline: 0;
+}
+.contact_button{
+	display: inline-block;
+	float: right;
+	margin-top: 20px;
+	cursor: pointer;
+}
+/*contact css end*/
+/*footer css start*/
+.footer_section{
+	padding: 20px;
+	background-color: #d1c8c1;
+}
+.f_left{
+	width: 20%;
+	float: left;
+}
+.f_left ul{
+	padding-left: 0;
+}
+.f_right{
+	width: 30%;
+	float: right;
+}
+.f_right ul{
+	float: right;
+}
+
+
+
+.f_menu{}
+.f_menu ul{}
+.f_menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+.f_menu ul li:last-child{
+	margin-right: 0;
+}
+.f_menu ul li span{
+	font-weight: 700;
+}
+.f_menu ul li a{
+	color: #302826;
+	text-decoration: none;
+}
+/*.f_menu ul li a i{
+	color: #fff;
+}*/
+.f_menu ul li a:hover{
+	color: #302826;
+}
+/*footer css end*/

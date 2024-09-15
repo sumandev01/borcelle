@@ -1,0 +1,152 @@
+@media only screen and (max-width: 1024px) {
+
+.description{
+  line-height: 25px;
+  margin: 10px 0;
+}
+.button{
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+
+/*header css start*/
+.logo{
+  width: 30%;
+}
+.logo a img{
+  width: 18%;
+}
+.menu{
+  width: 70%;
+}
+/*header css end*/
+
+/*about css start*/
+.a_img{
+  width: 25%;
+  margin-right: 2%;
+}
+.a_text{
+  width: 72%;
+}
+.a_text span{
+  margin-top: 0px;
+}
+.a_text h1{
+  margin: 5px 0;
+}
+.c_title{
+  margin-top: 0px;
+}
+/*about css end*/
+
+/*shop css start*/
+.p_button{
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.more_product .button{
+  display: inline-block;
+  margin-top: 100px;
+  padding: 15px 20px;
+}
+/*shop css end*/
+
+/*footer css start*/
+.f_left{
+  width: 40%;
+  float: left;
+}
+.f_right{
+  width: 50%;
+  float: right;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+/*header css start*/
+.logo{
+  width: 100%;
+  overflow: hidden;
+}
+.logo a{
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+.logo a img{
+  width: 20%;
+}
+.logo a h1{
+  font-size: 35px;
+  margin-top: 15px;
+}
+.menu{
+  width: 100%;
+}
+.menu ul{
+  width: 100%;
+  text-align: center;
+}
+/*header css end*/
+
+
+.b_img{
+  width: 30%;
+}
+
+.s_product{
+  width: 49%;
+  margin-bottom: 1%;
+}
+.p_button{
+  font-size: 12px;
+}
+
+}
+
+@media only screen and (max-width: 426px){
+.logo{
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.logo a{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+.logo a img{
+  width: 25%;
+}
+.menu ul li {
+  margin-right: 5px;
+}
+.b_text,
+.b_img,
+.a_img,
+.a_text,
+.c1_text,
+.c1_img,
+.c2_text,
+.c2_img,
+.shop_top,
+.s_product,
+.contact_left,
+.contact_right,
+.f_left,
+.f_right{
+  width: 100%;
+}
+.b_text,
+.c2_text{
+  margin-bottom: 1%;
+}
+.f_menu ul{
+  width: 100%;
+  text-align: center;
+}
+}
